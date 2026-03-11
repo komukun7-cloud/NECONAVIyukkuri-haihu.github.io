@@ -42,10 +42,12 @@ nav {
   text-stroke: 2px #484848;
 }
 .right {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 .left {
-  text-align: left;
+  display: flex;
+  justify-content: flex-start;
 }
 h1{
   margin: 0;
