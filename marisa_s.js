@@ -1,8 +1,8 @@
-const image = document.querySelector('#marisa');
-const sound = document.querySelector('#marisa_s');
+const imager = document.querySelector('#marisa');
+const soundr = document.querySelector('#marisa_s');
 
-image.addEventListener('click', () => {
-  sound.currentTime = 0;
-  sound.play();
+imager.addEventListener('click', () => {
+  soundr.currentTime = 0;
+  soundr.play();
 });
 
