@@ -110,7 +110,7 @@ body{
 .flex .button {
   margin: 10px 0 0;
   padding: 0;
-    background: #007bff;
+  background: #007bff;
   color: white;
   border: none;
   padding: 10px 32px;
@@ -119,6 +119,11 @@ body{
   cursor: pointer;
   font-weight: 600;
   transition: all 0.3s ease;
+  font-family:"Zen Maru Gothic", sans-serif;
+  font-style: normal;
+  -webkit-text-stroke: 2px #484848;
+  text-stroke: 2px #484848;
+  white-space: nowrap;
   
 
   
