@@ -1,8 +1,8 @@
 const text = document.querySelector('#text');
-const sound = document.querySelector('#text_s');
+const sounds = document.querySelector('#text_s');
 
 text.addEventListener('click', () => {
-  sound.currentTime = 0;
-  sound.play();
+  sounds.currentTime = 0;
+  sounds.play();
 });
 
