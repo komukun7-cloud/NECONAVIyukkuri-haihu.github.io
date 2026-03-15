@@ -1,4 +1,0 @@
-User-Agent: *
-Content-Signal: ai-train=no, search=yes, ai-input=no
-
-Sitemap: https://neconavikun.github.io/NECONAVIyukkuri-haihu.github.io/sitemap.txt
