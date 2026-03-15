@@ -35,8 +35,16 @@ header {
   justify-content: center;
 }
 .title {
-  font-size: 50px;
+  display: flex;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 50px
+  font-weight: 900;
+  font-style: normal;
   margin: 0;
+  padding: 0;
+  justify-content: center;
+  color: #ffffff;
   white-space: nowrap;
 }
 body {
@@ -55,7 +63,7 @@ body {
   transition: all 0.3s ease;
   &:hover {
     background: #0056b3;
-    transform: translateY(-2px);
+   transform: translateY(-2px);
   }
   &:active {
     transform: translateY(0);
@@ -63,10 +71,8 @@ body {
 }
 a { text-decoration: none; }
 .flex { display: flex; }
-.flex p {
-  margin: 23px;
-}
-.flex .image {
+.flex p { margin: 23px; }
+.image {
   width: 640px;
   height: 360px;
   margin: 0;
@@ -74,22 +80,11 @@ a { text-decoration: none; }
   overflow: hidden;
   position: relative;
 }
-.flex .right {
+.right {
   margin: 0 0 0 20px;
   padding: 0;
 }
-.flex .title {
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-  font-size: 18px;
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-  white-space: nowrap;
+.title {
 }
 .flex .button {
   margin: 10px 0 0;
@@ -133,7 +128,6 @@ a { text-decoration: none; }
   -webkit-text-stroke: 2px #3c4043;
 }
 hr {
-  border: none;
   margin: 0;
   color: #000000; 
   background-color: #000000;
