@@ -18,7 +18,7 @@ header {
   background-color: #DCF4FF;
   margin: 0;
 }
-.yukkurimiteiku p {
+.nav_text p {
   font-family:"Zen Maru Gothic", sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -70,8 +70,8 @@ body {
   }
 }
 a { text-decoration: none; }
-.flex { display: flex; }
-.flex p { margin: 23px; }
+section { display: flex; }
+section p { margin: 23px; }
 .image {
   width: 640px;
   height: 360px;
@@ -86,7 +86,7 @@ a { text-decoration: none; }
 }
 .title {
 }
-.flex .button {
+section .button {
   margin: 10px 0 0;
   padding: 0;
   background: #007bff;
@@ -103,7 +103,7 @@ a { text-decoration: none; }
   -webkit-text-stroke: 0.75px #000000;
   text-stroke: 0.75px #000000;
   white-space: nowrap;
-  &:hover {
+  &:hover, &:focus {
     background: #0056b3;
     transform: translateY(-2px);
   }
