@@ -1,36 +1,15 @@
-.zen-maru-gothic-medium {
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.zen-maru-gothic-black {
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  color: #484848;
-  display: flex;
-  justify-content: center;
-}
-.title {
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-  -webkit-text-stroke: 2px #7ae9ff;
-  text-stroke: 2px #7ae9ff;
+body {
+  margin: 0;
   white-space: nowrap;
 }
 header {
-  top:0;
+  top: 0;
   width: 100%;
   height: 350px;
   background-color: #DCF4FF;
   margin: 0;
 }
-.yukkurimiteiku p{
+.nav_text p {
   font-family:"Zen Maru Gothic", sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -38,23 +17,51 @@ header {
   display: flex;
   justify-content: center;
   margin: 0;
-  -webkit-text-stroke: 2px #484848;
   text-stroke: 2px #484848;
+  -webkit-text-stroke: 2px #484848;
   white-space: nowrap;
 }
 .picture {
   display: flex;
   justify-content: center;
 }
-h1{
+.title {
+  display: flex;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 900;
+  font-style: normal;
   margin: 0;
+  padding: 0;
+  justify-content: center;
+  color: #ffffff;
   white-space: nowrap;
 }
-body{
-  margin: 0;
-  white-space: nowrap;
+h1 {
+  font-weight: 900 !important;
+  text-stroke: 2px #7ae9ff;
+  -webkit-text-stroke: 2px #7ae9ff;
 }
-.button{
+.title-r {
+  text-stroke: 2px red;
+  -webkit-text-stroke: 2px red;
+}
+.title-m {
+  text-stroke: 2px yellow;
+  -webkit-text-stroke: 2px yellow;
+}
+.title-y {
+  text-stroke: 2px #bdbec1;
+  -webkit-text-stroke: 2px #bdbec1;
+}
+.title-sy {
+  text-stroke: 2px #3c4043;
+  -webkit-text-stroke: 2px #3c4043;
+}
+.nav_text p { font-size: 30px !important; }
+.image img { margin-left: 10%; }
+.button {
   background: #007bff;
   color: white;
   border: none;
@@ -64,32 +71,18 @@ body{
   cursor: pointer;
   font-weight: 600;
   transition: all 0.3s ease;
-  
   &:hover {
-    background: #0056b3;
+    background-color: #0056b3;
     transform: translateY(-2px);
   }
-  
-  &:active {
-    transform: translateY(0);
-  }
+  &:active { transform: translateY(0) !important; }
 }
-.01{
-  font-family:"Zen Maru Gothic", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  -webkit-text-stroke: 2px #484848;
-  text-stroke: 2px #484848;
-  white-space: nowrap;
-  margin: 0;
-}
-.flex {
-  display: flex; /*横並び*/
-}
-.flex p{
-  margin: 23px;
-}
-.flex .image {
+a { text-decoration: none; }
+section { display: flex; }
+section p { margin: 23px; }
+.right-ws-256 { margin-right: 256px; }
+.nav_text, #reimu, #marisa { cursor: pointer; }
+.image {
   width: 640px;
   height: 360px;
   margin: 0;
@@ -97,17 +90,11 @@ body{
   overflow: hidden;
   position: relative;
 }
-.flex .right {
+.right {
   margin: 0 0 0 20px;
   padding: 0;
 }
-.flex .title {
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-  font-size: 18px;
-}
-.flex .button {
+section .button {
   margin: 10px 0 0;
   padding: 0;
   background: #007bff;
@@ -116,82 +103,25 @@ body{
   padding: 10px 32px;
   font-size: 16px;
   border-radius: 6px;
-  cursor: pointer;
   font-weight: 600;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
   font-family:"Zen Maru Gothic", sans-serif;
   font-style: normal;
-  -webkit-text-stroke: 0.75px #000000;
   text-stroke: 0.75px #000000;
+  -webkit-text-stroke: 0.75px #000000;
   white-space: nowrap;
-  
-
-  
-  &:hover {
+  &:hover, &:focus {
     background: #0056b3;
     transform: translateY(-2px);
   }
-  
   &:active {
     transform: translateY(0);
   }
 }
-.title-r {
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-  -webkit-text-stroke: 2px red;
-  text-stroke: 2px red;
-  white-space: nowrap;
-}
-a {
-  text-decoration: none;
-}
-.title-m {
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-  -webkit-text-stroke: 2px yellow;
-  text-stroke: 2px yellow;
-  white-space: nowrap;
-}
-.title-y {
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-  -webkit-text-stroke: 2px #bdbec1;
-  text-stroke: 2px #bdbec1;
-  white-space: nowrap;
-}
-hr{
+hr {
+  height: 1px;
+  border: none;
   margin: 0;
   color: #000000; 
-}
-.nav_s{
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-.title-sy{
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-  -webkit-text-stroke: 2px #3c4043;
-  text-stroke: 2px #3c4043;
-  white-space: nowrap;
-}
-.nav_text{
-  cursor: pointer;
-  transition: transform 0.2s;
+  background-color: #000000;
 }
