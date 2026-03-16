@@ -2,15 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://NECONAVIKUN.github.io/NECONAVIyukkuri-haihu.github.io/</loc>
+    <priority>1.0</priority>
     <image:image>
       <image:loc>https://NECONAVIKUN.github.io/NECONAVIyukkuri-haihu.github.io/reimu_motion.webp</image:loc>
-      <image:title>動く霊夢</image:title>
-      <image:caption>ねこナビ式ゆっくり霊夢の動作デモです。</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://NECONAVIKUN.github.io/NECONAVIyukkuri-haihu.github.io/marisa_motion.webp</image:loc>
-      <image:title>動く魔理沙</image:title>
-      <image:caption>ねこナビ式ゆっくり魔理沙の動作デモです。</image:caption>
     </image:image>
   </url>
 </urlset>
