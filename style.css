@@ -190,6 +190,3 @@ section .button1 {
     transform: translateY(0);
   }
 }
-.right2 p{
-    align-items: center;  
-}
