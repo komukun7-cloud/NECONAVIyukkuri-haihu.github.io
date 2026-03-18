@@ -163,3 +163,6 @@ footer .button {
     transform: translateY(0);
   }
 }
+li {
+  list-style: none;
+}
