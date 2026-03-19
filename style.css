@@ -233,3 +233,6 @@ li {
 footer p{
   margin: 0;
 }
+.sns_icon{
+  opacity: 0.5;
+}
