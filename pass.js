@@ -1,6 +1,6 @@
 "use strict";
-var pwInput = document.getElementById("pw").value;
 document.getElementById("go").addEventListener("click", function() {
+  var pwInput = document.getElementById("pw").value;
   if (pwInput) {
     if (["ikura"].includes(pwInput)) {
       window.location.href = "/secret/" + pwInput + "/";
